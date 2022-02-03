@@ -35,3 +35,17 @@
 2022-02-03 13:36:49,047 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install
 2022-02-03 13:37:13,004 DEBUG bench build --app erpnext
 2022-02-03 13:37:13,638 INFO /home/frappe/.local/bin/bench build --app erpnext
+2022-02-03 13:42:14,174 INFO /home/frappe/.local/bin/bench start
+2022-02-03 13:42:49,644 INFO /home/frappe/.local/bin/bench watch
+2022-02-03 13:42:49,818 INFO /home/frappe/.local/bin/bench schedule
+2022-02-03 13:42:50,115 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-02-03 13:42:50,217 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-02-03 13:42:50,218 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-02-03 13:42:50,221 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-02-03 13:59:32,419 INFO /home/frappe/.local/bin/bench start
+2022-02-03 14:00:17,972 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-02-03 14:00:18,351 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-02-03 14:00:18,766 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-02-03 14:00:18,851 INFO /home/frappe/.local/bin/bench schedule
+2022-02-03 14:00:18,947 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-02-03 14:00:19,200 INFO /home/frappe/.local/bin/bench watch

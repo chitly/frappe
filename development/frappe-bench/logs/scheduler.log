@@ -1,0 +1,80 @@
+2022-02-03 13:54:18,992 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary for mysite.localhost
+2022-02-03 13:54:32,651 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for mysite.localhost
+2022-02-03 13:56:34,763 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:00:57,609 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for mysite.localhost
+2022-02-03 14:00:57,614 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.weekly_backup for mysite.localhost
+2022-02-03 14:01:21,404 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.weekly_backup for mysite.localhost
+2022-02-03 14:01:24,188 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary for mysite.localhost
+2022-02-03 14:01:30,629 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_monthly for mysite.localhost
+2022-02-03 14:01:34,251 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mysite.localhost
+2022-02-03 14:01:39,142 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary for mysite.localhost
+2022-02-03 14:01:41,893 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_weekly_updates for mysite.localhost
+2022-02-03 14:01:50,708 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for mysite.localhost
+2022-02-03 14:01:53,983 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mysite.localhost
+2022-02-03 14:01:57,120 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_weekly_updates for mysite.localhost
+2022-02-03 14:01:59,943 INFO scheduler Scheduled Job Start: frappe.desk.doctype.route_history.route_history.flush_old_route_records for mysite.localhost
+2022-02-03 14:02:09,559 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:02:09,626 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for mysite.localhost
+2022-02-03 14:02:13,281 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mysite.localhost
+2022-02-03 14:02:16,936 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.route_history.route_history.flush_old_route_records for mysite.localhost
+2022-02-03 14:02:19,844 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly for mysite.localhost
+2022-02-03 14:02:32,030 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for mysite.localhost
+2022-02-03 14:02:36,339 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mysite.localhost
+2022-02-03 14:02:50,487 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly for mysite.localhost
+2022-02-03 14:02:54,020 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly for mysite.localhost
+2022-02-03 14:02:56,634 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for mysite.localhost
+2022-02-03 14:03:00,411 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mysite.localhost
+2022-02-03 14:03:10,389 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:03:15,394 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly for mysite.localhost
+2022-02-03 14:03:19,559 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mysite.localhost
+2022-02-03 14:03:20,840 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for mysite.localhost
+2022-02-03 14:03:25,562 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for mysite.localhost
+2022-02-03 14:03:51,979 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for mysite.localhost
+2022-02-03 14:03:57,575 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for mysite.localhost
+2022-02-03 14:03:57,897 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mysite.localhost
+2022-02-03 14:04:03,394 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mysite.localhost
+2022-02-03 14:04:11,979 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:04:33,972 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for mysite.localhost
+2022-02-03 14:04:38,931 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for mysite.localhost
+2022-02-03 14:04:39,663 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for mysite.localhost
+2022-02-03 14:04:46,039 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for mysite.localhost
+2022-02-03 14:05:12,796 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:05:14,478 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for mysite.localhost
+2022-02-03 14:05:16,467 INFO scheduler Scheduled Job Complete: frappe.utils.change_log.check_for_update for mysite.localhost
+2022-02-03 14:05:18,901 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mysite.localhost
+2022-02-03 14:05:20,386 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mysite.localhost
+2022-02-03 14:05:41,735 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for mysite.localhost
+2022-02-03 14:05:45,523 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mysite.localhost
+2022-02-03 14:05:45,670 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for mysite.localhost
+2022-02-03 14:05:49,580 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for mysite.localhost
+2022-02-03 14:06:14,603 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:06:24,851 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly for mysite.localhost
+2022-02-03 14:06:43,082 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for mysite.localhost
+2022-02-03 14:06:49,752 INFO scheduler Scheduled Job Start: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for mysite.localhost
+2022-02-03 14:07:16,575 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:07:46,467 INFO scheduler Scheduled Job Failed: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for mysite.localhost
+2022-02-03 14:07:58,408 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for mysite.localhost
+2022-02-03 14:08:17,931 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:08:51,547 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for mysite.localhost
+2022-02-03 14:09:01,783 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for mysite.localhost
+2022-02-03 14:09:19,288 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:09:31,003 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for mysite.localhost
+2022-02-03 14:09:36,866 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for mysite.localhost
+2022-02-03 14:09:59,275 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for mysite.localhost
+2022-02-03 14:10:02,916 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mysite.localhost
+2022-02-03 14:10:21,621 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:10:27,225 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for mysite.localhost
+2022-02-03 14:10:31,155 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for mysite.localhost
+2022-02-03 14:10:59,301 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for mysite.localhost
+2022-02-03 14:11:02,210 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for mysite.localhost
+2022-02-03 14:11:23,281 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:11:25,563 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for mysite.localhost
+2022-02-03 14:11:29,588 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mysite.localhost
+2022-02-03 14:12:27,483 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:13:02,701 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mysite.localhost
+2022-02-03 14:13:16,787 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for mysite.localhost
+2022-02-03 14:13:29,476 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:14:31,621 DEBUG scheduler Queued events for site mysite.localhost
+2022-02-03 14:14:37,578 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for mysite.localhost
+2022-02-03 14:14:50,871 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for mysite.localhost
+2022-02-03 14:16:22,813 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for mysite.localhost
