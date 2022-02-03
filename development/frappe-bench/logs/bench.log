@@ -20,3 +20,5 @@
 2022-02-03 13:16:47,862 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket
 2022-02-03 13:17:16,412 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket
 2022-02-03 13:19:18,863 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
+2022-02-03 13:23:36,474 INFO /home/frappe/.local/bin/bench --site mysite.localhost set-config developer_mode 1
+2022-02-03 13:23:55,225 INFO /home/frappe/.local/bin/bench --site mysite.localhost clear-cache
