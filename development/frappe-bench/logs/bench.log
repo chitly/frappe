@@ -16,3 +16,7 @@
 2022-02-03 13:09:54,205 INFO /home/frappe/.local/bin/bench set-mariadb-host mariadb
 2022-02-03 13:10:24,682 INFO /home/frappe/.local/bin/bench set-mariadb-host mariadb
 2022-02-03 13:10:47,870 INFO /home/frappe/.local/bin/bench set-mariadb-host anyotherstring
+2022-02-03 13:15:56,109 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --no-mariadb-socket
+2022-02-03 13:16:47,862 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket
+2022-02-03 13:17:16,412 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket
+2022-02-03 13:19:18,863 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
