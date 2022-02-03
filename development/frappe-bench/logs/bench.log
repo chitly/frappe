@@ -22,3 +22,16 @@
 2022-02-03 13:19:18,863 INFO /home/frappe/.local/bin/bench new-site mysite.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
 2022-02-03 13:23:36,474 INFO /home/frappe/.local/bin/bench --site mysite.localhost set-config developer_mode 1
 2022-02-03 13:23:55,225 INFO /home/frappe/.local/bin/bench --site mysite.localhost clear-cache
+2022-02-03 13:25:53,086 INFO /home/frappe/.local/bin/bench get-app --branch version-14 erpnext https://github.com/frappe/erpnext.git
+2022-02-03 13:26:09,046 LOG Getting erpnext
+2022-02-03 13:26:09,052 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-02-03 13:26:10,971 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream executed with exit code 128
+2022-02-03 13:26:10,996 WARNING /home/frappe/.local/bin/bench get-app --branch version-14 erpnext https://github.com/frappe/erpnext.git executed with exit code 1
+2022-02-03 13:26:51,843 INFO /home/frappe/.local/bin/bench get-app --branch version-13 erpnext https://github.com/frappe/erpnext.git
+2022-02-03 13:27:09,316 LOG Getting erpnext
+2022-02-03 13:27:09,333 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2022-02-03 13:31:07,816 LOG Installing erpnext
+2022-02-03 13:31:07,852 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2022-02-03 13:36:49,047 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install
+2022-02-03 13:37:13,004 DEBUG bench build --app erpnext
+2022-02-03 13:37:13,638 INFO /home/frappe/.local/bin/bench build --app erpnext
